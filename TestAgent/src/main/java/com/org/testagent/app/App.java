@@ -1,4 +1,4 @@
-package com.org.testagent;
+package com.org.testagent.app;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -27,7 +27,6 @@ public class App
 			final StringBuffer sb = new StringBuffer();
 			while ((inputLine = in.readLine()) != null) {
 				sb.append(inputLine);
-				System.out.println("Content" + inputLine);
 			}
 			System.out.println("Content size: " + sb.length());
 		} catch (Exception e) {

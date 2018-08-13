@@ -39,9 +39,9 @@
 						<descriptorRef>jar-with-dependencies</descriptorRef>
 					</descriptorRefs>
 					<archive>
-						<manifest>
-							<mainClass>org.foo.Main</mainClass>
-						</manifest>
+                          <manifestEntries>
+                            <Premain-Class>com.org.customagent.app.App</Premain-Class>
+                          </manifestEntries>
 					</archive>
 				</configuration>
 				<executions>
